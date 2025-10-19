@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-desserts.jpg";
+import heroImage from "@/assets/hero-halva.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -17,11 +17,11 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in-slow">
         <h1 className="font-playfair text-5xl md:text-7xl font-bold text-foreground mb-6">
-          Artisanal Sweet Creations
+          Halvalicious by Yashka
         </h1>
         <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-          Hand-crafted desserts made with passion, precision, and the finest ingredients. 
-          Every creation is a unique work of art.
+          Hand-crafted artisanal halva made with passion, precision, and the finest ingredients. 
+          Each piece is lovingly created to bring you authentic, delicious moments.
         </p>
         <Button 
           onClick={scrollToContact}

@@ -1,25 +1,25 @@
 import { Card, CardContent } from "@/components/ui/card";
-import dessert1 from "@/assets/dessert-1.jpg";
-import dessert2 from "@/assets/dessert-2.jpg";
-import dessert3 from "@/assets/dessert-3.jpg";
+import dessert1 from "@/assets/halva-production.jpg";
+import dessert2 from "@/assets/halva-product.jpg";
+import dessert3 from "@/assets/halva-trays.jpg";
 
 const desserts = [
   {
     id: 1,
-    name: "Chocolate Artistry",
-    description: "Handmade chocolate tart with gold leaf and seasonal berries",
+    name: "Artisanal Craftsmanship",
+    description: "Every batch hand-crafted with care and attention to detail",
     image: dessert1,
   },
   {
     id: 2,
-    name: "Macaron Collection",
-    description: "Delicate French macarons in a rainbow of flavors",
+    name: "Premium Halva",
+    description: "Traditional halva made with authentic recipes and finest ingredients",
     image: dessert2,
   },
   {
     id: 3,
-    name: "Signature Cake",
-    description: "Layered masterpiece adorned with edible flowers",
+    name: "Fresh Daily",
+    description: "Prepared fresh in small batches to ensure quality and taste",
     image: dessert3,
   },
 ];
