@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-halva.jpg";
+import logo from "@/assets/logo.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -16,9 +17,11 @@ const Hero = () => {
       </div>
       
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in-slow">
-        <h1 className="font-playfair text-5xl md:text-7xl font-bold text-foreground mb-6">
-          Halvalicious by Yashka
-        </h1>
+        <img 
+          src={logo} 
+          alt="Halvalicious by Yashka logo" 
+          className="w-64 md:w-80 mx-auto mb-8"
+        />
         <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
           Hand-crafted artisanal halva made with passion, precision, and the finest ingredients. 
           Each piece is lovingly created to bring you authentic, delicious moments.
