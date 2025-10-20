@@ -30,8 +30,11 @@ const FeaturedDesserts = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Featured Creations
+            Perfect for Your Special Occasions
           </h2>
+          <p className="font-inter text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
+            Elegant party favors and gifts for weddings, birthdays, and celebrations
+          </p>
           <div className="w-24 h-1 bg-gradient-accent mx-auto"></div>
         </div>
         

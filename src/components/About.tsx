@@ -23,12 +23,13 @@ const About = () => {
           <div className="animate-fade-in">
             <p className="font-inter text-lg text-muted-foreground leading-relaxed mb-6">
               Each batch of halva is carefully hand-crafted using traditional techniques and premium ingredients. 
-              We believe that creating exceptional treats is an art form that requires patience, 
-              skill, and genuine passion.
+              Our treats are designed as the perfect party favor - a special memento your guests can take home 
+              from weddings, birthday celebrations, and milestone events.
             </p>
             <p className="font-inter text-lg text-muted-foreground leading-relaxed">
               It's a family affair - from preparation to packaging, every element is thoughtfully crafted 
-              to create not just a dessert, but an unforgettable experience made with love.
+              to create not just a dessert, but an unforgettable keepsake that makes your special occasion 
+              even more memorable.
             </p>
           </div>
         </div>

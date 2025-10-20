@@ -23,8 +23,8 @@ const Hero = () => {
           className="w-64 md:w-80 mx-auto mb-8"
         />
         <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-          Hand-crafted artisanal halva made with passion, precision, and the finest ingredients. 
-          Each piece is lovingly created to bring you authentic, delicious moments.
+          Exquisite artisanal halva, perfect as party favors and gifts for weddings, birthdays, and special celebrations. 
+          Each piece is lovingly hand-crafted to create memorable moments your guests will treasure.
         </p>
         <Button 
           onClick={scrollToContact}
