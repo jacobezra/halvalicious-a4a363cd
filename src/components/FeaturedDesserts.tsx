@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import dessert1 from "@/assets/halva-production.jpg";
+import dessert1 from "@/assets/artisanal-craftsmanship.jpg";
 import dessert2 from "@/assets/halva-product.jpg";
 import dessert3 from "@/assets/halva-trays.jpg";
 
