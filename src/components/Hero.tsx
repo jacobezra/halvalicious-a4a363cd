@@ -24,6 +24,7 @@ const Hero = () => {
         />
         <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
           Exquisite artisanal halva, perfect as party favors and gifts for weddings, birthdays, and special celebrations. 
+          Send your guests home with a little of the celebration's sweetness.
           Each piece is lovingly hand-crafted to create memorable moments your guests will treasure.
         </p>
         <Button 
