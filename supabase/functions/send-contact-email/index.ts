@@ -29,7 +29,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to business owner
     const emailResponse = await resend.emails.send({
       from: "Halvalicious <onboarding@resend.dev>",
-      to: ["jezra85@gmail.com"], // TODO: Replace with your actual email
+      to: "jezra85@gmail.com", // TODO: Replace with your actual email
       subject: `New Order Inquiry from ${name}`,
       html: `
         <h2>New Custom Order Inquiry</h2>
