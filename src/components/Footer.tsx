@@ -10,7 +10,7 @@ const Footer = () => {
           className="w-32 mx-auto mb-4"
         />
         <p className="font-inter text-muted-foreground">
-          © 2024 Halvalicious by Yashka. Hand-crafted with love.
+          © 2025 Halvalicious by Yashka. Hand-crafted with love.
         </p>
       </div>
     </footer>
