@@ -9,6 +9,9 @@ const Footer = () => {
           alt="Halvalicious by Yashka" 
           className="w-32 mx-auto mb-4"
         />
+        <p className="font-inter text-muted-foreground mb-2">
+          For enquiries: <a href="mailto:hello@yashkashalva.com" className="text-primary hover:underline">hello@yashkashalva.com</a>
+        </p>
         <p className="font-inter text-muted-foreground">
           © 2025 Halvalicious by Yashka. Hand-crafted with love.
         </p>
