@@ -1,4 +1,5 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.39.3';
 import { Resend } from "https://esm.sh/resend@2.0.0";
 
 const resend = new Resend(Deno.env.get("RESEND_API_KEY"));
@@ -26,7 +27,23 @@ const handler = async (req: Request): Promise<Response> => {
     
     console.log("Received contact form submission from:", name, email);
 
-    // Send email to business owner
+    // Initialize Supabase client
+    const supabaseClient = createClient(
+      Deno.env.get('SUPABASE_URL') ?? '',
+      Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
+    );
+
+    // Save to database
+    const { error: dbError } = await supabaseClient
+      .from('contact_submissions')
+      .insert([{ name, email, message }]);
+
+    if (dbError) {
+      console.error("Database error:", dbError);
+      throw dbError;
+    }
+
+    // Send email notification
     const emailResponse = await resend.emails.send({
       from: "Halvalicious <hello@yashkashalva.com>",
       to: "jezra85@gmail.com",

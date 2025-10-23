@@ -20,9 +20,9 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const { error } = await supabase
-        .from('contact_submissions')
-        .insert([formData]);
+      const { error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData
+      });
 
       if (error) throw error;
 
