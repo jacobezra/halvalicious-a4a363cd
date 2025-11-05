@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import dessert1 from "@/assets/artisanal-craftsmanship.jpg";
 import dessert2 from "@/assets/halva-product.jpg";
 import dessert3 from "@/assets/halva-trays.jpg";
+import whiteLabelImage from "@/assets/white-label-boxes.jpg";
 
 const desserts = [
   {
@@ -21,6 +22,12 @@ const desserts = [
     name: "Fresh Daily",
     description: "Prepared fresh in small batches to ensure quality and taste",
     image: dessert3,
+  },
+  {
+    id: 4,
+    name: "White Labeling Options",
+    description: "Want to make an impression at your next event? Explore white labeling or co-branding options",
+    image: whiteLabelImage,
   },
 ];
 
