@@ -18,7 +18,7 @@ const desserts = [
   },
   {
     id: 4,
-    name: "White Labeling Options",
+    name: "Customised Gift Options",
     description: "Want to make an impression at your next event? Explore white labeling or co-branding options",
     image: whiteLabelImage,
   },
