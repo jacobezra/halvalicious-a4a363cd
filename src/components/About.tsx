@@ -1,4 +1,4 @@
-import craftedImage from "@/assets/crafted-with-love.jpg";
+import craftedImage from "@/assets/halva-production.jpg";
 
 const About = () => {
   return (
