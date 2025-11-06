@@ -1,9 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
+import artisanalImage from "@/assets/artisanal-craftsmanship.jpg";
 import dessert2 from "@/assets/halva-product.jpg";
 import dessert3 from "@/assets/halva-trays.jpg";
 import whiteLabelImage from "@/assets/white-label-boxes.jpg";
 
 const desserts = [
+  {
+    id: 0,
+    name: "Artisanal Craftsmanship",
+    description: "Every batch hand-crafted with care and attention to detail",
+    image: artisanalImage,
+  },
   {
     id: 1,
     name: "Premium Halva",
