@@ -11,7 +11,7 @@ const Footer = () => {
           className="w-32 mx-auto mb-4"
         />
         <p className="font-inter text-muted-foreground mb-2">
-          For enquiries: <a href="mailto:hello@yashkashalva.com" className="text-primary hover:underline">hello@yashkashalva.com</a>
+          For enquiries: <a href="mailto:hello@halvalicious.com.au" className="text-primary hover:underline">hello@halvalicious.com.au</a>
         </p>
         <a 
           href="http://instagram.com/halvalicious" 
